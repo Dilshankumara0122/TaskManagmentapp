@@ -33,8 +33,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
         android:layout_marginStart="156dp"
         android:backgroundTint="#8688DC"
         android:text="get start"
