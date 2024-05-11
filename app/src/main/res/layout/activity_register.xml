@@ -14,7 +14,18 @@
         >
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/primary"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="35dp"
 
+            android:layout_marginTop="25dp"
+            android:text="Sing In"
+            />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="190dp"
