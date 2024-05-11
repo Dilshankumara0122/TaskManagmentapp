@@ -26,19 +26,21 @@
         android:textSize="21sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.404" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="33dp"
         android:layout_marginStart="156dp"
+        android:layout_marginEnd="155dp"
         android:backgroundTint="#8688DC"
         android:text="get start"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.421" />

@@ -12,12 +12,14 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/white_illustrative_motivational_education_quotes_classroom_poster__1_"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="-45dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="155dp"
         android:backgroundTint="#8688DC"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
