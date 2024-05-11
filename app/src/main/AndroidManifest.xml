@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TaskApp"
         tools:targetApi="31">
         <activity
+            android:name=".onbodescreen03"
+            android:exported="false" />
+        <activity
             android:name=".homescreen03"
             android:exported="false" />
         <activity
