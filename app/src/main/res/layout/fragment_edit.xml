@@ -19,9 +19,9 @@
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif"
             android:text="@string/edit_task_details"
-            android:textStyle="bold"
-            android:textColor="@color/primary"
-            android:textSize="24sp" />
+            android:textColor="#538CB8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editNoteTitle"
@@ -48,26 +48,28 @@
             android:background="@drawable/border"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp" />
+
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_marginBottom="55dp"
+            android:layout_width="399dp"
+            android:layout_height="379dp"
             android:layout_alignParentBottom="true"
-            android:src="@drawable/img1" />
+            android:layout_marginBottom="26dp"
+            android:src="@drawable/img1"
+            tools:srcCompat="@drawable/new12" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/editNoteFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
+            android:backgroundTint="#538CB8"
             android:clickable="true"
-            android:backgroundTint="@color/primary"
-            android:tintMode="@color/white"
+            android:contentDescription="editFab"
             android:src="@drawable/done_icon"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:contentDescription="editFab" />
+            android:tintMode="@color/white" />
 
     </RelativeLayout>
 </layout>

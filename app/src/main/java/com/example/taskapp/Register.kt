@@ -17,11 +17,11 @@ class Register : AppCompatActivity() {
         home = findViewById(R.id.sing_in)
         // Set OnClickListener for the button
         singup.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
         home.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }

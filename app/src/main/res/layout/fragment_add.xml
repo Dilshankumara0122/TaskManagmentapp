@@ -19,9 +19,9 @@
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif"
             android:text="@string/add_new_task"
-            android:textStyle="bold"
-            android:textColor="@color/primary"
-            android:textSize="24sp" />
+            android:textColor="#538CB8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/addNoteTitle"
@@ -52,9 +52,10 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="260dp"
-            android:layout_marginBottom="25dp"
             android:layout_alignParentBottom="true"
-            android:src="@drawable/add" />
+            android:layout_marginBottom="131dp"
+            android:src="@drawable/add"
+            tools:srcCompat="@drawable/new1" />
 
     </RelativeLayout>
 </layout>

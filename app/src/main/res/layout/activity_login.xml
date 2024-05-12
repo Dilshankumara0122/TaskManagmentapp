@@ -12,55 +12,59 @@
         android:layout_gravity="center_horizontal"
         android:padding="24dp"
         >
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="@color/primary"
             android:layout_gravity="center"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:textSize="35dp"
-            android:padding="10dp"
             android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:padding="10dp"
             android:text="Sing Up"
-            />
+            android:textColor="#538CB8"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/log"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="@color/primary"
             android:layout_gravity="start"
-            android:textStyle="bold"
-            android:gravity="start"
-            android:textSize="22dp"
             android:layout_marginTop="25dp"
+            android:gravity="start"
             android:text="User Name"
-            />
+            android:textColor="#538CB8"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
         <EditText
+            android:id="@+id/username_singup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/username_singup"
-            android:orientation="vertical"
-            android:textSize="25dp"
             android:layout_gravity="center_horizontal"
-            android:padding="5dp"
             android:layout_marginTop="8dp"
-            android:background="@drawable/border"/>
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#C1B5B5"
+            android:textSize="25dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="@color/primary"
             android:layout_gravity="start"
-            android:textStyle="bold"
-            android:gravity="start"
-            android:textSize="22dp"
             android:layout_marginTop="25dp"
+            android:gravity="start"
             android:text="Password"
-            />
+            android:textColor="#538CB8"
+            android:textSize="22dp"
+            android:textStyle="bold" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,17 +75,18 @@
             android:padding="5dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/border"/>
+
         <Button
-            android:layout_gravity="center_horizontal"
+            android:id="@+id/login"
 
             android:layout_width="200dp"
-            android:text="Sing Up"
-            android:textStyle="bold"
-            android:id="@+id/login"
-            android:textSize="25dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@color/primary"
-            android:layout_height="match_parent"/>
+            android:backgroundTint="#538CB8"
+            android:text="Sing Up"
+            android:textSize="25dp"
+            android:textStyle="bold" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,24 +97,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/primary"
                 android:layout_gravity="start"
-                android:textStyle="bold"
                 android:gravity="start"
+                android:text="If Your Don’t Have Account "
+                android:textColor="#538CB8"
                 android:textSize="17dp"
-                android:text="If Your Don’t Have Account " />
+                android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/no_sing_in"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:layout_gravity="start"
-                android:textStyle="bold"
-                android:gravity="start"
-                android:id="@+id/no_sing_in"
-                android:textSize="17dp"
                 android:layout_marginTop="25dp"
-                android:text="Sign In Now" />
+                android:gravity="start"
+                android:shadowColor="#3DB7E3"
+                android:text="Sign In Now"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
